@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ثيم اللعبة الأساسي -->
+    <style name="Theme.MafiaGame" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- إخفاء شريط العنوان لجعل اللعبة ملء الشاشة -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        
+        <!-- الألوان المعتمدة للتطبيق -->
+        <item name="colorPrimary">@color/blood_red</item>
+        <item name="colorPrimaryDark">@color/deep_red</item>
+        <item name="android:windowBackground">@color/black_background</item>
+    </style>
+</resources>
